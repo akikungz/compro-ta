@@ -6,4 +6,4 @@ height = float(input("Enter your height in meters: "))
 bmi = weight / height ** 2
 
 # Display the BMI
-print("Your BMI is {:.2f}".format(bmi))
+print(f"Your BMI is {bmi:.2f}")
